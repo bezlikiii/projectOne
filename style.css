@@ -357,6 +357,12 @@ button:active {
         border: 2px solid rgb(1, 172, 242);
         border-radius: 20px;
         padding: 5px;
+        font-size: 12px;
+        word-wrap: break-word; 
+        overflow-wrap: break-word;
+        text-align: center;
+        white-space: normal;
+        display: flex;
     }
 
     .list:hover {
